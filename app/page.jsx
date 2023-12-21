@@ -36,7 +36,7 @@ const Portfolio = () => {
       img: 'https://i.postimg.cc/cJzRfnFz/profile.png',
       title: 'Social Media Portal',
       description: 'Es una página donde se encuentran las redes sociales que mas frecuento',
-      link: '#',
+      link: 'https://joshuapena.me/profile/',
     },
     {
       img: 'https://i.postimg.cc/pXHrPgXF/header.png',
