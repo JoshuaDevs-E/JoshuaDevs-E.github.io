@@ -15,9 +15,15 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.kewords} />
+        <meta name="language" content="Español">
+        <meta name="revisit-after" content="1 days">
+        <meta name="copyright" content="Joshua Peña">
+        <meta name="application-name" content="Joshua Peña">
         <meta name="author" content={metadata.author} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={metadata.title} />
+        <meta name="robots" content="index, follow">
+        <meta property="og:url" content="https://www.joshuapena.me">
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.image} />
         <meta property="og:type" content={metadata.type} />
