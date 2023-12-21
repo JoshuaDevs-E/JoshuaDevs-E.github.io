@@ -1,0 +1,157 @@
+.skills-buttons {
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cont{
+  display: none;
+}
+
+.skills-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.html-button {
+  background-color: #e44d26;
+  color: white;
+}
+
+.css-button {
+  background-color: #264de4;
+  color: white;
+}
+
+.js-button {
+  background-color: #f7df1e;
+  color: black;
+}
+
+.python-button {
+  background-color: #306998;
+  color: white;
+}
+
+.mysql-button {
+  background-color: #00758f;
+  color: white;
+}
+
+.react-button {
+  background-color: #61dafb;
+  color: black;
+}
+
+.git-button {
+  background-color: #f05032;
+  color: white;
+}
+
+.figma-button {
+  background-color: #f24e1e;
+  color: white;
+}
+
+.bootstrap-button {
+  background-color: #563d7c;
+  color: white;
+}
+
+.nodejs-button {
+  background-color: #8cc84b;
+  color: black;
+}
+
+.mongodb-button {
+  background-color: #13aa52;
+  color: white;
+}
+
+.sqlite-button {
+  background-color: #003b57;
+  color: white;
+}
+
+.c-button {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.c-button:hover {
+  background-color: #4169e1;
+  color: white;
+}
+
+.react-vite-button {
+  background-color: #41b883;
+  color: white;
+}
+
+.react-vite-button:hover {
+  background-color: #34a07c;
+  color: white;
+}
+
+.flask-button {
+  background-color: #000;
+  color: white;
+}
+
+.flask-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.nextjs-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.nextjs-button:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.typescript-button {
+  background-color: #3178c6;
+  color: #ffffff;
+}
+
+.typescript-button:hover {
+  background-color: #1a5498;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skills-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .cont{
+    display: block;
+  }
+  .cont-2{
+    display: none;
+
+  }
+}
