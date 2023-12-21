@@ -4,33 +4,33 @@ export const metadata = {
   image: 'https://i.postimg.cc/y8vDdh47/logo.png',
   type: 'website',
   siteName: 'Joshua Emil P. R.',
-  kewords: 'portfolio, Joshua, joshua, Peña, peña, Emil, emil, Rosario, rosario, junior,Junior, web developer'
-
+  keywords: 'portfolio, Joshua, joshua, Peña, peña, Emil, emil, Rosario, rosario, junior, Junior, web developer',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.kewords} />
-        <meta name="language" content="Español">
-        <meta name="revisit-after" content="1 days">
-        <meta name="copyright" content="Joshua Peña">
-        <meta name="application-name" content="Joshua Peña">
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="language" content="Español" />
+        <meta name="revisit-after" content="1 day" />
+        <meta name="copyright" content="Joshua Peña" />
+        <meta name="application-name" content="Joshua Peña" />
         <meta name="author" content={metadata.author} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={metadata.title} />
-        <meta name="robots" content="index, follow">
-        <meta property="og:url" content="https://www.joshuapena.me">
+        <meta name="robots" content="index, follow" />
+        <meta property="og:url" content="https://www.joshuapena.me" />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.image} />
         <meta property="og:type" content={metadata.type} />
         <meta property="og:site_name" content={metadata.siteName} />
         <link rel="icon" href={metadata.image} />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>
+    
       <body>{children}</body>
     </html>
   )
