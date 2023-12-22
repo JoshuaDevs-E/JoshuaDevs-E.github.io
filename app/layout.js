@@ -21,7 +21,6 @@ export default function RootLayout({ children }) {
         <meta name="revisit-after" content="1 day" />
         <meta name="copyright" content="Joshua Peña" />
         <meta name="application-name" content="Joshua Peña" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={metadata.title} />
         <meta name="robots" content="index, follow" />
         <meta property="og:url" content="https://www.joshuapena.me" />
@@ -42,16 +41,11 @@ export default function RootLayout({ children }) {
                 "https://github.com/JoshuaDevs-E",
                 "https://www.instagram.com/joshua.epr/"
               ]
-          }
-       `}
-</script>
-
-
-
-
+            }
+          `}
+        </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>
-    
       <body>{children}</body>
     </html>
   )
