@@ -66,7 +66,7 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen relative html">
       <button className="fixed top-0 right-0 m-4 bg-white text-black px-4 py-2 rounded" onClick={toggleMenu} style={{ zIndex: 1000 }}>
-        <img width={40} src="https://i.postimg.cc/vTgfvF33/barra-de-menus.png" alt="" />
+        <img width={40} src="https://i.postimg.cc/vTgfvF33/barra-de-menus.png" alt="Menu" />
       </button>
       <div
         className={`fixed top-0 left-0 h-screen w-64 bg-white bg-opacity-90 transition-all duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}
@@ -139,7 +139,7 @@ const Portfolio = () => {
       <div className="w-full p-6 shadow-md cont-2">
         {projects.map((project, index) => (
           <div key={index} className="flex bg-white m-4 rounded-md mb-4 text-center justify-center">
-            <img src={project.img} alt={project.title} className="rounded-t-md m-6 img" width={'500px'} />
+            <img src={project.img} alt={project.title} className="rounded-t-md m-6 img" width={'600px'} />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
