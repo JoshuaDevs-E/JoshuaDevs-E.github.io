@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
+        <link rel="stylesheet" href="https://www.tailwindcss-animated.com/configurator.html?animation=jump-in">
         <title>Joshua Peña - Portfolio</title>
         <meta property="og:title" content={metadata.title} />
         <meta name="robots" content="index, follow" />
