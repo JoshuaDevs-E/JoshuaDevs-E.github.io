@@ -11,18 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <title>Joshua Peña - Portfolio</title>
-        <meta name="language" content="Español" />
-        <meta name="author" content="Joshua Peña" />
-        <meta name="copyright" content="Joshua Peña" />
-        <meta name="application-name" content="Joshua Peña" />
-        <meta property="og:title" content={metadata.title} />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:url" content="https://www.joshuapena.me" />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.image} />
-        <meta property="og:type" content={metadata.type} />
-        <meta property="og:site_name" content={metadata.siteName} />
-        <link rel="icon" href={metadata.image} />
+     
 <script type="application/ld+json">
   {`
     {
