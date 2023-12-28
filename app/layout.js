@@ -26,20 +26,26 @@ export default function RootLayout({ children }) {
         <meta property="og:site_name" content={metadata.siteName} />
         <link rel="icon" href={metadata.image} />
         <link rel="canonical" href="https://www.joshuapena.me" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Joshua Peña",
-              "url": "https://www.joshuapena.me",
-              "sameAs": [
-                "https://github.com/JoshuaDevs-E",
-                "https://www.instagram.com/joshua.epr/"
-              ]
-            }
-          `}
-        </script>
+<script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Joshua Peña",
+      "url": "https://www.joshuapena.me",
+      "sameAs": [
+        "https://github.com/JoshuaDevs-E",
+        "https://www.instagram.com/joshua.epr/"
+      ],
+      "memberOf": {
+        "@type": "WebSite",
+        "name": "Joshua Peña - Portfolio",
+        "url": "https://www.joshuapena.me",
+        "image": "https://i.postimg.cc/y8vDdh47/logo.png"
+      }
+    }
+  `}
+</script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>
       <body>{children}</body>
