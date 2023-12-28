@@ -11,10 +11,8 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <title>Joshua Peña - Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="Español" />
         <meta name="author" content="Joshua Peña" />
-        <meta name="revisit-after" content="1 day" />
         <meta name="copyright" content="Joshua Peña" />
         <meta name="application-name" content="Joshua Peña" />
         <meta property="og:title" content={metadata.title} />
