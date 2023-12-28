@@ -1,5 +1,4 @@
 export const metadata = {
-  title: 'Joshua Peña - Portfolio',
   description: '¡Hola! Soy un apasionado desarrollador web Junior. Me especializo en el desarrollo de aplicaciones web utilizando tecnologías como React, Next.js y Tailwind CSS.',
   image: 'https://i.postimg.cc/y8vDdh47/logo.png',
   type: 'website',
@@ -11,6 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
+        <title>Joshua Peña - Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="Español" />
         <meta name="author" content="Joshua Peña" />
@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content={metadata.type} />
         <meta property="og:site_name" content={metadata.siteName} />
         <link rel="icon" href={metadata.image} />
-        <link rel="canonical" href="https://www.joshuapena.me" />
 <script type="application/ld+json">
   {`
     {
