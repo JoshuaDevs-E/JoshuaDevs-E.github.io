@@ -65,6 +65,7 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen relative html">
+      
       <button className="fixed top-0 right-0 m-4 bg-white text-black px-4 py-2 rounded" onClick={toggleMenu} style={{ zIndex: 1000 }}>
         <img width={40} src="https://i.postimg.cc/vTgfvF33/barra-de-menus.png" alt="Menu" />
       </button>
@@ -136,7 +137,7 @@ const Portfolio = () => {
         </div>
         <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
       </div>
-      <div className="w-full p-6 shadow-md cont-2">
+      <div className="w-full p-6 shadow-md cont-2 animate-jump-in">
         {projects.map((project, index) => (
           <div key={index} className="flex bg-white m-4 rounded-md mb-4 text-center justify-center">
             <img src={project.img} alt={project.title} className="rounded-t-md m-6 img" width={'600px'} />
@@ -150,7 +151,7 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <div className="w-full p-6 shadow-md cont">
+      <div className="w-full p-6 shadow-md cont animate-jump-in">
         {projects.map((project, index) => (
           <div key={index} className="max-w-sm mx-auto bg-white rounded-md overflow-hidden shadow-lg mb-4">
             <img src={project.img} alt={project.title} className="w-full h-48 object-cover rounded-t-md" />
